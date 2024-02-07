@@ -6,8 +6,8 @@ const TopicCard = ({ topicID, title, topicSrc, imgSrc, subTopics }) => {
   return (
     <Card className="max-w-sm" id={topicID}>
       <img className="w-full h-full object-cover" src={imgSrc} alt={title} />
-      <h5 className="text-2xl font-bold tracking-tight text-blue-900 dark:text-white">
-        <a href={topicSrc} className="text-blue-600 hover:underline">
+      <h5 className="text-2xl font-bold tracking-tight  dark:text-white">
+        <a href={topicSrc} className="hover:underline">
           {title}
         </a>
       </h5>
@@ -15,7 +15,7 @@ const TopicCard = ({ topicID, title, topicSrc, imgSrc, subTopics }) => {
         {subTopics.map(({ subTopicID, subTopicTitle, subTopicSrc }) => (
           // loop through each subtopic and display the title and the link
           <li key={subTopicID} className="subtopic-item">
-            <a href={subTopicSrc} className="text-gray-700 hover:text-blue-600">
+            <a href={subTopicSrc} className="dark:text-white hover:text-blue-600">
               {subTopicTitle}
             </a>
           </li>

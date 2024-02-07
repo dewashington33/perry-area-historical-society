@@ -1,16 +1,24 @@
+import { Flowbite } from "flowbite-react";
+import FooterPAHS from "./components/FooterPAHS";
+import HeaderPAHS from "./components/HeaderPAHS";
 import TopicsFlowbite from "./pages/Topics";
 
 function App() {
   return (
-    <div>
-      <div>header</div>
+    <Flowbite>
       <div>
-        <TopicsFlowbite />
+        <div>
+          <HeaderPAHS />
+        </div>
+        <div>
+          <TopicsFlowbite />
+        </div>
+        <div>
+          <FooterPAHS />
+        </div>
       </div>
-      <div>footer</div>
-    </div>
+    </Flowbite>
   );
-  // <h1 className="text-3xl font-bold underline">Hello world!</h1>;
 }
 
 export default App;
