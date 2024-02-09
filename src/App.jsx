@@ -1,23 +1,22 @@
-import { Flowbite } from "flowbite-react";
-import FooterPAHS from "./components/FooterPAHS";
 import HeaderPAHS from "./components/HeaderPAHS";
-import TopicsFlowbite from "./pages/Topics";
+import FooterPAHSTailblocks from "./components/FooterPAHSTailblocks";
+
+import Home from "./pages/Home"
+
 
 function App() {
   return (
-    <Flowbite>
       <div>
         <div>
           <HeaderPAHS />
         </div>
         <div>
-          <TopicsFlowbite />
+          <Home />
         </div>
         <div>
-          <FooterPAHS />
+          <FooterPAHSTailblocks />
         </div>
       </div>
-    </Flowbite>
   );
 }
 

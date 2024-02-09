@@ -4,7 +4,7 @@ import TopicCard from "../components/TopicCard";
 const TopicsFlowbite = () => {
   return (
     <section className="bg-gray-100">
-      <header className="bg-stone-200 h-44 leading-10">
+      <header className="bg-stone-300 h-44 leading-10">
         <div className="mx-auto text-center box-border block leading-10 pb-11 pt-12 pl-5 pr-5 relative">
           <h2 className="text-4xl font-cormorant font-semibold">
             Browse by Topic
