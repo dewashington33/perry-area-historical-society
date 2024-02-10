@@ -1,18 +1,23 @@
 import PropTypes from "prop-types";
 
-function TopicCardTailblocks({ topicID, title, topicSrc, imgSrc, subTopics }) {
+function TopicCard({ topicID, title, topicSrc, imgSrc, subTopics }) {
+  console.log("TopicCard", title, topicID);
   return (
-    <li className="p-4 md:w-1/3" id={topicID}>
-      <div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+    <li
+      className="p-4 md:w-1/3 flex flex-col md:flex-row items-center"
+      id={topicID}
+    >
+      <div className="w-64 border-2 border-gray-800 rounded-lg overflow-hidden">
         <img
-          className="lg:h-48 md:h-36 w-full object-cover object-center"
+          className="h-48 w-full object-cover object-center"
           src={imgSrc}
           alt={title}
         />
         <div className="p-6">
           <h5 className="title-font text-2xl font-medium text-white mb-3">
             <a href={topicSrc} className="hover:underline">
-              {title}{topicID}
+              {title}
+              {topicID}
             </a>
           </h5>
           <ul className="subtopics">
@@ -34,7 +39,7 @@ function TopicCardTailblocks({ topicID, title, topicSrc, imgSrc, subTopics }) {
   );
 }
 
-TopicCardTailblocks.propTypes = {
+TopicCard.propTypes = {
   topicID: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired, // specify that title is a required string
   topicSrc: PropTypes.string.isRequired, // specify that topicSrc is a required string
@@ -50,4 +55,4 @@ TopicCardTailblocks.propTypes = {
   ).isRequired, // specify that subTopics is a required prop
 };
 
-export default TopicCardTailblocks;
+export default TopicCard;

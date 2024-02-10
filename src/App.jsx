@@ -1,5 +1,5 @@
 import HeaderPAHS from "./components/HeaderPAHS";
-import FooterPAHSTailblocks from "./components/FooterPAHSTailblocks";
+import FooterPAHS from "./components/FooterPAHS";
 
 import Home from "./pages/Home"
 
@@ -14,7 +14,7 @@ function App() {
           <Home />
         </div>
         <div>
-          <FooterPAHSTailblocks />
+          <FooterPAHS />
         </div>
       </div>
   );

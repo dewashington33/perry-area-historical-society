@@ -1,12 +1,12 @@
 import Content from "../components/Content";
-import TopicsTailblocks from "../pages/TopicsTailblocks";
 import Hero from "../components/Hero";
+import Topics from "../pages/Topics";
 
 function Home() {
   return (
     <div>
       <Hero />
-      <TopicsTailblocks />
+      <Topics />
       <Content />
     </div>
   );
