@@ -17,7 +17,6 @@ function TopicCard({ topicID, title, topicSrc, imgSrc, subTopics }) {
           <h5 className="title-font text-2xl font-medium text-white mb-3">
             <a href={topicSrc} className="hover:underline">
               {title}
-              {topicID}
             </a>
           </h5>
           <ul className="subtopics">
