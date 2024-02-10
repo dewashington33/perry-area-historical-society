@@ -9,7 +9,7 @@ function HeaderPAHS() {
         <img
           src="/images/PAHSSchool.jpg"
           className="w-100 h-10 mr-2"
-          alt="Logo"
+          alt="PAHS School"
         />
       </div>
       <div className="block lg:hidden">
