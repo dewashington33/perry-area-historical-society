@@ -1,5 +1,5 @@
 export async function loadTopicsData() {
-    const response = await fetch('../data/topicsData.json');
+    const response = await fetch('/perry-area-historical-society/data/topicsData.json');
     if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
     }

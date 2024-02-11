@@ -7,7 +7,7 @@ function HeaderPAHS() {
     <nav className="bg-mirage-950 flex items-center justify-between flex-wrap p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
         <img
-          src="/images/PAHSSchool.jpg"
+          src="./images/PAHSSchool.jpg"
           className="w-100 h-10 mr-2"
           alt="PAHS School"
         />

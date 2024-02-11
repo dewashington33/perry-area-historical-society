@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 
 // https://vitejs.dev/config/
-export default ({ mode }) => defineConfig({
+export default ({ command }) => defineConfig({
   plugins: [react()],
-  base: mode === 'production' ? '/perry-area-historical-society/' : '/'
+  base: command === 'serve' ? '/' : '/perry-area-historical-society/'
 })
