@@ -10,18 +10,6 @@ function Content() {
             <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">
               Perry, the place &quot;where Georgia comes together&quot;
             </h1>
-            <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-              Originally called Wattsville and founded in 1823 for the purpose
-              of conducting the county`s legal affairs, the town was placed in
-              the geographic center of Houston County, which was then much
-              larger than it is today. The town`s name was changed to Perry in
-              honor of Commodore Oliver Hazard Perry, a hero of the War of 1812
-              (1812-15). On December 9, 1824, the Georgia legislature approved
-              the incorporation of Perry, the first official town in Houston
-              County. Morris, Susan. &quot;Perry.&quot; New Georgia Encyclopedia, last
-              modified Jul 12, 2022.
-              https://www.georgiaencyclopedia.org/articles/counties-cities-neighborhoods/perry/
-            </p>
           </div>
         </div>
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
@@ -30,16 +18,17 @@ function Content() {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1203x503"
+                src="/images/PHSClassOf1889.jpg"
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
               Educate
             </h2>
             <p className="text-base leading-relaxed mt-2">
-              Swag shoivdigoitch literally meditation subway tile tumblr
-              cold-pressed. Gastropub street art beard dreamcatcher neutra,
-              ethical XOXO lumbersexual.
+              Our volunteers can provide guided tours of the museum and
+              scheduled school field trips. The museum is open to the public on
+              Tuesday, Wednesday and Thursday from 10 AM - noon and 2 PM - 4 PM.
+              We are also open on Saturday from 9AM - noon. Admission is free.
             </p>
             <a className="text-indigo-500 inline-flex items-center mt-3">
               Learn More
@@ -61,7 +50,7 @@ function Content() {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1204x504"
+                src="/images/courtneyhodges.jpg"
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -93,16 +82,17 @@ function Content() {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1205x505"
+                src="/images/PerryEvergreenTour2.jpg"
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
               Events
             </h2>
             <p className="text-base leading-relaxed mt-2">
-              Swag shoivdigoitch literally meditation subway tile tumblr
-              cold-pressed. Gastropub street art beard dreamcatcher neutra,
-              ethical XOXO lumbersexual.
+              The City of Perry, in partnership with the Perry Area Historical
+              Society, is proud to offer free, historical tours throughout
+              October, November, and December to celebrate Perry’s 200th
+              birthday in 2024.
             </p>
             <a className="text-indigo-500 inline-flex items-center mt-3">
               Learn More

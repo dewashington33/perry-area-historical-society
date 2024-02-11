@@ -1,5 +1,5 @@
 import { PiArrowFatLinesDown } from "react-icons/pi";
-import "../components/section-styles.css";
+//import "../components/section-styles.css";
 
 function Hero() {
   function handleScrollDown() {
@@ -9,10 +9,15 @@ function Hero() {
     });
   }
   return (
-    <section className="text-gray-400 bg-gray-900 body-font section-gradient bg-no-repeat bg-cover opacity-100 grayscale min-h-screen lg:object-left md:object-center">
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div className="w-full lg:pr-24 md:pr-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-white">
+    <section>
+      <div className="bg-gradient-to-tl from-blue-900 to-gray-900 w-full relative min-h-screen">
+        <img
+          src="/images/PAHSMuseumbg.jpg"
+          alt=""
+          className="w-full h-full object-cover absolute mix-blend-overlay"
+        />
+        <div className="z-0 p-24">
+          <h1 className="text-white text-6xl font-bold">
             Celebrating Perry&apos;s heritage and history
           </h1>
           <h2 className="text-white font-medium text-2xl">Founded 1824</h2>
@@ -30,13 +35,18 @@ function Hero() {
             <br />
             <br />
             <a
-              className="text-white cursor-pointer hover:underline"
+              className="text-white cursor-pointer hover:underline relative z-10"
               href="https://www.georgiaencyclopedia.org/articles/counties-cities-neighborhoods/perry/"
+              onClick={(event) => {
+                event.preventDefault();
+                window.location.href =
+                  "https://www.georgiaencyclopedia.org/articles/counties-cities-neighborhoods/perry/";
+              }}
             >
               New Georgia Encyclopedia
             </a>
           </p>
-          <div className="fixed left-0 w-full flex justify-center items-end pb-4">
+          <div className="left-0 w-full flex justify-center items-end pb-1 relative z-10">
             <PiArrowFatLinesDown
               className="cursor-pointer text-white text-5xl"
               onClick={handleScrollDown}
