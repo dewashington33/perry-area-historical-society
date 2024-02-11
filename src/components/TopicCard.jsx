@@ -1,6 +1,12 @@
 import PropTypes from "prop-types";
 
 function TopicCard({ topicID, title, topicSrc, imgSrc, subTopics }) {
+  // check if the image source is in production or development mode
+  const imageSource =
+    import.meta.env.MODE === "production"
+      ? `/perry-area-historical-society${imgSrc}`
+      : imgSrc;
+
   console.log("TopicCard", title, topicID);
   return (
     <li
@@ -10,7 +16,7 @@ function TopicCard({ topicID, title, topicSrc, imgSrc, subTopics }) {
       <div className="w-64 border-2 border-gray-800 rounded-lg overflow-hidden">
         <img
           className="h-48 w-full object-cover object-center"
-          src={imgSrc}
+          src={imageSource}
           alt={title}
         />
         <div className="p-6">
