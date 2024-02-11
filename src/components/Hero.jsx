@@ -9,7 +9,7 @@ function Hero() {
     });
   }
   return (
-    <section className="text-gray-400 bg-gray-900 body-font section-gradient bg-no-repeat bg-cover opacity-100 grayscale h-dvh lg:object-left md:object-center">
+    <section className="text-gray-400 bg-gray-900 body-font section-gradient bg-no-repeat bg-cover opacity-100 grayscale min-h-screen lg:object-left md:object-center">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="w-full lg:pr-24 md:pr-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-white">
