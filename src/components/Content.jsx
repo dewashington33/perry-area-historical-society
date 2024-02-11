@@ -11,9 +11,16 @@ function Content() {
               Perry, the place &quot;where Georgia comes together&quot;
             </h1>
             <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-              Street art subway tile salvia four dollar toast bitters selfies
-              quinoa yuccie synth meditation iPhone intelligentsia prism tofu.
-              Viral gochujang bitters dreamcatcher.
+              Originally called Wattsville and founded in 1823 for the purpose
+              of conducting the county`s legal affairs, the town was placed in
+              the geographic center of Houston County, which was then much
+              larger than it is today. The town`s name was changed to Perry in
+              honor of Commodore Oliver Hazard Perry, a hero of the War of 1812
+              (1812-15). On December 9, 1824, the Georgia legislature approved
+              the incorporation of Perry, the first official town in Houston
+              County. Morris, Susan. &quot;Perry.&quot; New Georgia Encyclopedia, last
+              modified Jul 12, 2022.
+              https://www.georgiaencyclopedia.org/articles/counties-cities-neighborhoods/perry/
             </p>
           </div>
         </div>
@@ -61,10 +68,10 @@ function Content() {
               Research
             </h2>
             <p className="text-base leading-relaxed mt-2">
-              The Perry Area Historical Society&apos;s Museum offers a collection of
-              artifacts and memorabilia from Perry&apos;s earliest days. Of
-              particular interest to researchers is the Museum&apos;s Resource Room
-              which contains many family histories and photos.
+              The Perry Area Historical Society&apos;s Museum offers a
+              collection of artifacts and memorabilia from Perry&apos;s earliest
+              days. Of particular interest to researchers is the Museum&apos;s
+              Resource Room which contains many family histories and photos.
             </p>
             <a className="text-indigo-500 inline-flex items-center mt-3">
               Learn More
