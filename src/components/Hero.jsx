@@ -17,7 +17,7 @@ function Hero() {
           className="w-full h-full object-cover absolute mix-blend-overlay"
         />
         <div className="z-0 p-24">
-          <h1 className="text-white text-6xl font-bold">
+          <h1 className="text-white text-4xl font-bold">
             Celebrating Perry&apos;s heritage and history
           </h1>
           <h2 className="text-white font-medium text-2xl">Founded 1824</h2>

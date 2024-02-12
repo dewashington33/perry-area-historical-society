@@ -1,4 +1,9 @@
 function Content() {
+  const imageSource =
+    import.meta.env.MODE === "production"
+      ? `/perry-area-historical-society/`
+      : "/images/";
+
   return (
     <section className="text-gray-600 body-font bg-stone-300">
       <div className="container px-5 py-24 mx-auto">
@@ -18,7 +23,7 @@ function Content() {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="/images/PHSClassOf1889.jpg"
+                src={`${imageSource}PHSClassOf1889.jpg`}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -50,7 +55,7 @@ function Content() {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="/images/courtneyhodges.jpg"
+                src={`${imageSource}courtneyhodges.jpg`}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -82,7 +87,7 @@ function Content() {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="/images/PerryEvergreenTour2.jpg"
+                src={`${imageSource}PerryEvergreenTour2.jpg`}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
