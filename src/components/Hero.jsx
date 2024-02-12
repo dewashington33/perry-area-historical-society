@@ -2,6 +2,11 @@ import { PiArrowFatLinesDown } from "react-icons/pi";
 //import "../components/section-styles.css";
 
 function Hero() {
+ const imageSource =
+   import.meta.env.MODE === "production"
+     ? `/perry-area-historical-society/images/`
+     : "/images/";
+
   function handleScrollDown() {
     window.scrollTo({
       top: window.innerHeight / 4,
@@ -12,7 +17,8 @@ function Hero() {
     <section>
       <div className="bg-gradient-to-tl from-blue-900 to-gray-900 w-full relative min-h-screen">
         <img
-          src="/images/PAHSMuseumbg.jpg"
+        //  src="/images/PAHSMuseumbg.jpg"
+          src={`${imageSource}PAHSMuseumbg.jpg`}
           alt=""
           className="w-full h-full object-cover absolute mix-blend-overlay"
         />
