@@ -1,7 +1,7 @@
 function Content() {
   const imageSource =
     import.meta.env.MODE === "production"
-      ? `/perry-area-historical-society/`
+      ? `/perry-area-historical-society/images/`
       : "/images/";
 
   return (
