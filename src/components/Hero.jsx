@@ -20,7 +20,7 @@ function Hero() {
           alt=""
           className="w-full h-full object-cover absolute mix-blend-overlay"
         />
-        <div className="z-0 p-4 pt-60">
+        <div className="z-0 p-4 pt-30 md:pt-60">
           <div className="flex flex-col">
             <h1 className="text-white text-4xl font-bold font-cinzel">
               Celebrating Perry&apos;s heritage and history

@@ -5,20 +5,10 @@ function HeaderPAHS() {
 
   return (
     <nav className="bg-mirage-950 flex items-center justify-between flex-wrap p-6">
-      <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
-        <img
-          src="./images/PAHSSchool.jpg"
-          className="w-100 h-10 mr-2"
-          alt="PAHS School"
-        />
+      <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72"> 
         <a
           className="text-white cursor-pointer hover:underline relative z-10 font-cinzel semi-bold"
-          href="https://www.georgiaencyclopedia.org/articles/counties-cities-neighborhoods/perry/"
-          onClick={(event) => {
-            event.preventDefault();
-            window.location.href =
-              "https://www.georgiaencyclopedia.org/articles/counties-cities-neighborhoods/perry/";
-          }}
+          href="/"
         >
           Perry Area Historical Society
         </a>

@@ -11,14 +11,18 @@ function Topics() {
 
   return (
     <section className="text-gray-400 bg-gray-900 body-font">
-      <header className="bg-stone-300 h-44 leading-10 w-full">
+      <hr />
+      <header className="h-44 leading-10 w-full">
         <div className="mx-auto text-center box-border leading-10 pb-11 pt-12 pl-5 pr-5 relative flex flex-col justify-center h-full max-w-4xl">
-          <h2 className="text-blue-900 text-6xl font-cormorant font-semibold">
+          <h2 className="text-white text-6xl font-cormorant font-semibold">
             Browse by Topic
           </h2>
-          <h3 className="text-blue-900 text-2xl font-cormorant font-light">
+          <h3 className="text-white text-2xl font-cormorant font-light">
             categorized by topic
           </h3>
+        </div>
+        <div>
+          <hr />
         </div>
       </header>
       <div className="container mx-auto max-w-4xl px-5 py-24 flex justify-center">
