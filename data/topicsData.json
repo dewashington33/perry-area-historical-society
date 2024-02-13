@@ -15,7 +15,12 @@
           "subTopicID": 2,
           "subTopicTitle": "Theater",
           "subTopicSrc": "/topics/theater/"
-        }
+        },
+          {
+            "subTopicID": 3,
+            "subTopicTitle": "Georgia National Fair",
+            "subTopicSrc": "/topics/fair/"
+          }
       ]
     },
     {

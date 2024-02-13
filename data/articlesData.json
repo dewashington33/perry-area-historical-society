@@ -1,0 +1,76 @@
+{
+  "articles": [
+    {
+      "articleID": 1,
+      "title": "General Courtney Hodges",
+      "category": "People",
+      "articleImgSrc": "/images/courtneyhodges.jpg",
+      "articleDescription" : "General Courtney Hicks Hodges (January 5, 1887 - January 16, 1966) was born in Perry, Georgia on January 5, 1887.",
+      "articleText": "General Courtney Hicks Hodges (January 5, 1887 - January 16, 1966) was a decorated senior officer in the United States Army who commanded First U.S. Army in the Western European Campaign of World War II. Hodges was a notable \"mustang\" officer, rising from private to general. Born in Perry, Georgia, he began studies at the United States Military Academy but dropped out after failing Geometry. He joined the Army in 1906 as a private, rapidly advanced into the noncommissioned officer ranks, and obtained a commission after passing a competitive examination in 1909. As a young man, Hodges served under Colonel John J. Pershing in the Pancho Villa Expedition and became part of the first rescue mission in U.S. military aviation history when he helped save a stranded aviator. He was a battalion commander in France during World War I, and was awarded the Distinguished Service Cross for extraordinary heroism. In 1943, he was sent to England to serve under General Omar Bradley. Hodges was deputy commander of First Army during the D-Day invasion. Two months later, he was appointed First Army's commander. Under Hodges, First Army had 18 divisions, the most under the immediate command of any general in the European theater of World War II. First Army liberated Paris, was the first Allied army to enter Germany, and cut Nazi Germany in two by advancing east to link up with Soviet forces who advanced west.[3]",
+      "galleryItems": [
+        {
+          "galleryItemID": 1,
+          "galleryItemTitle": "General Courtney Hicks Hodges",
+          "galleryItemSubTitle": "1887-1966",
+          "galleryItemShortDescription": "WWII Commander of the First Army 1944",
+          "galleryImgSrc": "/images/courtneyhodges/GenCourtneyHodges4star.jpg"
+        },
+        {
+          "galleryItemID": 2,
+          "galleryItemTitle": "Courtney Hicks Hodges",
+          "galleryItemSubTitle": "3 Years Old",
+          "galleryItemShortDescription": "General Courtney Hodges 3 years old in Perry GA",
+          "galleryImgSrc": "/images/Courtney_Hodges_3_years_old.jpg"
+        }
+      ]
+    },
+    {
+      "articleID": 2,
+      "title": "US Senator Sam Nunn",
+      "category": "People",
+      "articleImgSrc": "/images/samnunn/Sam_Nunn_portrait.jpg",
+      "articleDescription" : "Nunn was raised in Perry. He is a grandnephew of Congressman Carl Vinson.  The son of Mary Elizabeth (née Cannon) and Samuel Augustus Nunn, who was an attorney and mayor of Perry, Georgia.",
+      "articleText": "Nunn was born in Macon, Georgia, the son of Mary Elizabeth (née Cannon) and Samuel Augustus Nunn, who was an attorney and mayor of Perry, Georgia.[2] Nunn was raised in Perry. He is a grandnephew of Congressman Carl Vinson. Nunn was an Eagle Scout and recipient of the Distinguished Eagle Scout Award from the Boy Scouts of America.[3][4] In high school, Nunn was a standout athlete, captaining the school's basketball team to a state championship.[5] Nunn attended Georgia Tech in 1956,[6] where he was initiated as a brother of Phi Delta Theta. He transferred to Emory University in 1959 and received his undergraduate degree in 1961.[7] He then received a degree from the Emory University School of Law in 1962.[6]",
+      "galleryItems": [
+        {
+          "galleryItemID": 1,
+          "galleryItemTitle": "US Senator Sam Nunn",
+          "galleryItemSubTitle": "Senator 1972-1997",
+          "galleryItemShortDescription": "Senate Armed Services Committee",
+          "galleryImgSrc": "/images/samnunn/SamNunn.jpg"
+        },
+        {
+          "galleryItemID": 2,
+          "galleryItemTitle": "Sam Nunn",
+          "galleryItemSubTitle": "Lawyer Politician",
+          "galleryItemShortDescription": "Georgia House of Representatives 1969-1972, US Senator 1972-1997",
+          "galleryImgSrc": "/images/samnunn/SamNunnLawyerPolitician.jpg"
+        }
+      ]
+    },
+    {
+      "articleID": 3,
+      "title": "Georgia National Fair & Agricenter",
+      "category": "Arts & Culture",
+      "articleImgSrc": "/images/fair/georgia-national-fair.jpg",
+      "articleDescription": "The annual, state-sponsored Georgia National Fair is a celebration of Georgia's youth, agriculture, and heritage with competitive exhibits, food, midway rides and games, vendors, free family entertainment, free circus, major concerts, and nightly fireworks.",
+      "articleText": "The idea for the Georgia National Fairgrounds & Agricenter came about after visiting the Junior Hog Market Show in Macon in 1983. Representative Larry Walker felt the agricultural youth of Georgia deserved better facilities to show their livestock projects. Later that same year, GA State Rep. Henry L. Reaves called a meeting of youth, civic and political leaders. Those in attendance included: • Rep. Reaves • Rep. Larry Walker • Robert Nash • Jack Smith • Bobby Rowan • Dr. M.K. Cook Rep. Reaves was named to head up a task force to determine the feasibility of establishing a new state wide youth and agricultural show facility. Dr. Cook’s Committee determined that developing such a center was both desirable and practical. Rep. Reaves, Chairman of the House of Representatives Committee on Agriculture, estimated the project at $15 million – The completed project actually cost $25 million.",
+      "galleryItems": [
+        {
+          "galleryItemID": 1,
+          "galleryItemTitle": "Georgia National Fair & Agricenter",
+          "galleryItemSubTitle": "Annual Event",
+          "galleryItemShortDescription": "State-sponsored celebration of Georgia's youth, agriculture, and heritage",
+          "galleryImgSrc": "/images/fair/georgia-national-fair.jpg"
+        },
+        {
+          "galleryItemID": 2,
+          "galleryItemTitle": "Georgia National Fair & Agricenter",
+          "galleryItemSubTitle": "Agricenter",
+          "galleryItemShortDescription": "Venue for the annual Georgia National Fair",
+          "galleryImgSrc": "/images/fair/agricenter.jpg"
+        }
+      ]
+    }
+  ]
+}
