@@ -11,6 +11,17 @@ function HeaderPAHS() {
           className="w-100 h-10 mr-2"
           alt="PAHS School"
         />
+        <a
+          className="text-white cursor-pointer hover:underline relative z-10 font-cinzel semi-bold"
+          href="https://www.georgiaencyclopedia.org/articles/counties-cities-neighborhoods/perry/"
+          onClick={(event) => {
+            event.preventDefault();
+            window.location.href =
+              "https://www.georgiaencyclopedia.org/articles/counties-cities-neighborhoods/perry/";
+          }}
+        >
+          Perry Area Historical Society
+        </a>
       </div>
       <div className="block lg:hidden">
         <button

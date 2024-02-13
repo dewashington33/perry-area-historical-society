@@ -9,6 +9,7 @@ export default {
     extend: {
       fontFamily: {
         'cormorant': ['Cormorant Garamond', 'serif'],
+        'cinzel': ['Cinzel', 'serif'],
       },
       colors: {
         'mirage': {
