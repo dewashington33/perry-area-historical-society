@@ -16,11 +16,16 @@
           "subTopicTitle": "Theater",
           "subTopicSrc": "/topics/theater/"
         },
-          {
-            "subTopicID": 3,
-            "subTopicTitle": "Georgia National Fair",
-            "subTopicSrc": "/topics/fair/"
-          }
+        {
+          "subTopicID": 3,
+          "subTopicTitle": "Georgia National Fair",
+          "subTopicSrc": "/topics/fair/"
+        },
+        {
+          "subTopicID": 4,
+          "subTopicTitle": "Houston Home Journal",
+          "subTopicSrc": "/topics/hhj/"
+        }
       ]
     },
     {
@@ -71,7 +76,12 @@
           "subTopicID": 3,
           "subTopicTitle": "Historical Events",
           "subTopicSrc": "/topics/historyevents"
-        }
+        },
+          {
+            "subTopicID": 4,
+            "subTopicTitle": "Exhibits",
+            "subTopicSrc": "/topics/exhibits"
+          }
       ]
     },
     {
@@ -89,6 +99,16 @@
           "subTopicID": 2,
           "subTopicTitle": "Libraries",
           "subTopicSrc": "/topics/libraries"
+        },
+        {
+          "subTopicID": 3,
+          "subTopicTitle": "Educators",
+          "subTopicSrc": "/topics/educators"
+        },
+        {
+          "subTopicID": 4,
+          "subTopicTitle": "Houston County District",
+          "subTopicSrc": "/topics/houstoncountydistrict"
         }
       ]
     },
@@ -110,7 +130,12 @@
         },
         {
           "subTopicID": 3,
-          "subTopicTitle": "Team Champions",
+          "subTopicTitle": "Teams",
+          "subTopicSrc": "/topics/teams"
+        },
+        {
+          "subTopicID": 4,
+          "subTopicTitle": "Champions",
           "subTopicSrc": "/topics/sportsteamchampions"
         }
       ]

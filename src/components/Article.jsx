@@ -7,7 +7,7 @@ function Article({ title, category, articleImgSrc, articleDescription }) {
       : articleImgSrc;
   return (
     <div className="p-4 md:w-1/3">
-      <div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+      <div className="bg-gray-900 h-full border-2 border-gray-800 rounded-lg overflow-hidden">
         <img
           className="h-80 w-full object-cover object-top"
           src={imageSource}

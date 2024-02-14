@@ -1,4 +1,4 @@
-import { PiArrowFatLinesDown } from "react-icons/pi";
+// import { PiArrowFatLinesDown } from "react-icons/pi";
 
 function Hero() {
   const imageSource =
@@ -6,12 +6,12 @@ function Hero() {
       ? `/perry-area-historical-society/images/`
       : "/images/";
 
-  function handleScrollDown() {
-    window.scrollTo({
-      top: window.innerHeight / 4,
-      behavior: "smooth",
-    });
-  }
+  // function handleScrollDown() {
+  //   window.scrollTo({
+  //     top: window.innerHeight / 4,
+  //     behavior: "smooth",
+  //   });
+  // }
   return (
     <section>
       <div className="bg-gradient-to-tl from-blue-900 to-gray-900 w-full relative min-h-screen">
@@ -54,12 +54,12 @@ function Hero() {
               New Georgia Encyclopedia
             </a>
           </div>
-          <div className="left-0 w-full flex justify-center items-end pb-1 relative z-10">
+          {/* <div className="left-0 w-full flex justify-center items-end pb-1 relative z-10">
             <PiArrowFatLinesDown
               className="cursor-pointer text-white text-5xl"
               onClick={handleScrollDown}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

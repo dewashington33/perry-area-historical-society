@@ -13,7 +13,7 @@ function TopicCard({ topicID, title, topicSrc, imgSrc, subTopics }) {
       className="p-4 md:w-1/3 flex flex-col md:flex-row items-center"
       id={topicID}
     >
-      <div className="w-64 border-2 border-gray-800 rounded-lg overflow-hidden">
+      <div className="bg-gray-900 w-64 border-2 border-gray-800 rounded-lg overflow-hidden">
         <img
           className="h-48 w-full object-cover object-center"
           src={imageSource}
