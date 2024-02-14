@@ -71,6 +71,30 @@
           "galleryImgSrc": "/images/fair/agricenter.jpg"
         }
       ]
+    },
+    {
+      "articleID": 4,
+      "title": "Houston Home Journal",
+      "category": "Arts & Culture",
+      "articleImgSrc": "/images/hhj/hhj1900.jpg",
+      "articleDescription": "Founded in 1870 and published in Perry, the Houston Home Journal is the oldest continually-operated business in Houston County. The paper has been the legal organ for Houston County since 1870. The publication has been owned by the Hodges family for over sixty years. The Houston Home Journal is a semiweekly publication.",
+      "articleText": "John T. Waterman founded the Houston Home Journal in Perry in December 1870. The paper strongly aligned with the Democratic Party during Reconstruction and notably opposed Tom Watson's Populist Party. Beginning in 1877, the publication's title shifted several times between Houston Home Journal and Home Journal, before finally settling on the former in 1924. Perry-native John H. Hodges purchased the paper in 1880. The Hodges family maintained ownership of the publication for over sixty years, before selling it in 1946. The Houston Home Journal remains the legal organ for Houston County and continues semiweekly publication as the county's oldest continually-operated business.",
+      "galleryItems": [
+        {
+          "galleryItemID": 1,
+          "galleryItemTitle": "Houston Home Journal 1955",
+          "galleryItemSubTitle": "1955",
+          "galleryItemShortDescription": "Houston Home Journal 1955",
+          "galleryImgSrc": "/images/hhj/hhj1955.jpg"
+        },
+        {
+          "galleryItemID": 2,
+          "galleryItemTitle": "HHJ Jan 1890",
+          "galleryItemSubTitle": "2 Jan 1890",
+          "galleryItemShortDescription": "One of the first issues of the HHJ",
+          "galleryImgSrc": "/images/hhj/HHJFirstIssue2Jan1890.jpg"
+        }
+      ]
     }
   ]
 }
